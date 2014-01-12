@@ -30,6 +30,7 @@ $(document).ready(function () {
 
 
 // override jquery validate plugin defaults
+// http://stackoverflow.com/questions/18754020/bootstrap-3-with-jquery-validation-plugin
 $.validator.setDefaults({
     highlight: function(element) {
         $(element).closest('.form-group').addClass('has-error');
